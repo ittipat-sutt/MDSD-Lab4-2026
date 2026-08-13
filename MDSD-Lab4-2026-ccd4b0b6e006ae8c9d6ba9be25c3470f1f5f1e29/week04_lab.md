@@ -484,7 +484,7 @@ class DestinationCard extends StatelessWidget {
 > 3. เขียน Comment สั้น ๆ ในโค้ดของตัวเองอธิบายว่าทำไมต้องใช้ `Positioned` คู่กับ `Stack` ถึงจะย้ายตำแหน่ง Badge ได้ (ถ้าใช้ `Positioned` นอก `Stack` จะเกิดอะไรขึ้น)
 
 บันทึกรูปผลการทดลอง
-```image
+``image
 <img width="1556" height="982" alt="image" src="https://github.com/user-attachments/assets/400864eb-ce29-489e-bfe8-2516f841220c" />
 <img width="1542" height="1042" alt="image" src="https://github.com/user-attachments/assets/2d468fc0-3839-4130-afa5-77c586e7babc" />
 
@@ -643,7 +643,7 @@ class _ExploreScreenState extends State<ExploreScreen> {
 > 3. สังเกตว่าค่าทั้งสองตัวเท่ากันหรือไม่ แล้วเขียนสรุป 2-3 บรรทัดเป็น Comment ในโค้ดว่า `MediaQuery.of(context).size.width` (ความกว้างของทั้งหน้าจอ) กับ `LayoutBuilder` `constraints.maxWidth` (ความกว้างที่ Widget นั้น ๆ ได้รับจาก Parent) ต่างกันอย่างไร และควรเลือกใช้ตัวไหนเมื่อไหร่
 
 บันทึกรูปผลการทดลอง
-```image
+``image
 <img width="1907" height="907" alt="image" src="https://github.com/user-attachments/assets/06913c6a-f375-4d3f-b339-6f048d609ecd" />
 <img width="1556" height="982" alt="image" src="https://github.com/user-attachments/assets/8e43d67e-f917-435f-8080-ef73b0387135" />
 
@@ -1109,7 +1109,7 @@ class _StatCard extends StatelessWidget {
 > 3. เขียน Comment อธิบายว่าทำไมต้องใส่ `shrinkWrap: true` และ `NeverScrollableScrollPhysics()` เมื่อวาง `ListView` ซ้อนอยู่ใน `Column` ที่อยู่ใน `SingleChildScrollView` อีกที (จะเกิดอะไรขึ้นถ้าไม่ใส่)
 
 บันทึกรูปผลการทดลอง
-```image
+``image
 <img width="1337" height="871" alt="image" src="https://github.com/user-attachments/assets/c0561434-dee9-4173-91e7-120d510e695e" />
 <img width="1553" height="913" alt="image" src="https://github.com/user-attachments/assets/25d8f442-1138-4f7b-aba8-f79adc7af7c4" />
 
@@ -1364,7 +1364,7 @@ final GoRouter appRouter = GoRouter(
 > 3. ทดสอบ Fallback ที่แก้ไข โดยรันแอปบน Chrome (`flutter run -d chrome`) แล้วพิมพ์ URL `/explore/destinations/999` ตรง ๆ ใน Address Bar (เป็น `id` ที่ไม่มีอยู่จริง) — ต้องเห็นหน้า "ไม่พบข้อมูลที่ต้องการ" ไม่ใช่ Error สีแดงหรือข้อมูลผิด
 
 บันทึกรูปผลการทดลอง
-```image
+``image
 <img width="1356" height="721" alt="image" src="https://github.com/user-attachments/assets/4796c199-e501-4fe0-bf8a-0f5a0af76425" />
 <img width="1426" height="830" alt="image" src="https://github.com/user-attachments/assets/30e3cd84-0e3a-48ee-98da-d3731b12b485" />
 <img width="1683" height="1005" alt="image" src="https://github.com/user-attachments/assets/f6c9d5ed-562c-4cde-988e-d5209e263a70" />
@@ -1561,7 +1561,7 @@ GoRoute(
 > 💡 **หลีกเลี่ยงการขอโค้ดทั้งไฟล์จาก AI** ให้ลองเขียนเองก่อน ถ้าติดจริง ๆ ให้ถามเป็นจุด ๆ ไป (เช่น "ทำไม setState ใน Widget อื่นไม่ทำให้ Saved Screen รีเฟรช") จะได้เรียนรู้มากกว่าการคัดลอกมาทั้งหมด
 
 บันทึกรูปผลการทดลอง
-```image
+``image
 1.<img width="1911" height="1072" alt="image" src="https://github.com/user-attachments/assets/503471ce-4698-4fba-b494-0e9bdd92e1ed" />
 2.<img width="1907" height="1078" alt="image" src="https://github.com/user-attachments/assets/3c2194c2-9f75-4177-ba90-a6a0a0a1d779" />
 3.<img width="1906" height="997" alt="image" src="https://github.com/user-attachments/assets/b97cd3d0-8734-42d2-8f57-a0a472d85448" />
